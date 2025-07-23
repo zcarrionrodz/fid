@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background-color: #faf2e4;
+  background: #faf2e4 url(../bistro/images/blackgoose-gray.png) no-repeat center 100px fixed;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  margin: 0;
+  padding: 2em 0;
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+              url(../bistro/images/blackgoosebg25x25.png) repeat-x center top;
+  background-size: auto;
+  border-bottom: 2px solid #cd582d;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img.logo {
+  display: block;
+  margin: 0 auto 10px;
+  width: 150px;
+  height: auto;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li a:hover {
+  color: #f25100;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #f25100;
+}
+
+a:visited {
+  color: #937393;
+}
+
+a:focus, a:hover {
+  color: #f25100;
+  background-color: #ecff71;
+}
+
+a:active {
+  color: #f25100;
+  background-color: #ecff71;
+}
+
+h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #cd582d;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+}
+
+strong {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#info p {
+  font-style: italic;
+}
+
+.price {
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+p.warning, sup {
+  font-size: small;
+}
+
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  padding-top: 1em;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
