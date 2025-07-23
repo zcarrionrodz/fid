@@ -11,10 +11,7 @@ body {
 header {
   text-align: center;
   margin: 0;
-  padding: 2em 0;
-  margin-top: 0;
   padding: 3em 1em 2em 1em;
-  text-align: center;
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
               url(../bistro/images/blackgoosebg25x25.png) repeat-x center top;
   background-size: auto;
@@ -22,14 +19,14 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-header img.logo {
+.logo {
   display: block;
   margin: 0 auto 10px;
   width: 150px;
   height: auto;
 }
 
-header h1 {
+header > h1 {
   text-align: center;
   font-size: 3.5em;
   font-family: sans-serif;
@@ -44,7 +41,10 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: center;
-  gap: 20px;
+}
+
+nav ul li {
+  margin: 0 10px; /* fallback spacing for gap */
 }
 
 nav ul li a {
@@ -105,7 +105,7 @@ ul {
   padding: 0;
 }
 
-#info p {
+.info p {
   font-style: italic;
 }
 
@@ -114,7 +114,7 @@ ul {
   font-style: italic;
 }
 
-p.warning, sup {
+.warning, sup {
   font-size: small;
 }
 
@@ -138,8 +138,7 @@ footer {
 footer img {
   width: 40px;
   height: 40px;
-  margin-left: .5em;
-  margin-right: .5em;
+  margin: 0 0.5em;
 }
 
 footer img:hover {
