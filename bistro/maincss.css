@@ -6,7 +6,7 @@ article header {
   text-align: left;
 }
 
-header img.logo {
+.logo {
   display: block;
   margin: 0 auto 10px;
   width: 150px;
@@ -15,10 +15,8 @@ header img.logo {
 header {
   text-align: center;
   margin: 0;
-  padding: 2em 0;
   margin-top: 0;
   padding: 3em 1em 2em 1em;
-  text-align: center;
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
               url(../bistro/images/blackgoosebg25x25.png) repeat-x center top;
   background-size: auto;
@@ -79,4 +77,18 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 0.5em 1em;
+  border-radius: 8px; /* smooth rounded corners */
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #f25100; /* modern orange box */
+  color: #fff; /* white text inside */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* subtle shadow */
 }
