@@ -1,0 +1,112 @@
+
+body {
+  background-color: #f4ededd9;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  width: 80vw;
+  position: relative;
+  z-index: 0;
+
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/Logo Zaida Carrion Initials.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80% auto;
+  opacity: 0.05;
+  z-index: -1;
+  pointer-events: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d75402;
+  margin-top: 45px;
+  color: #0c2f6f;
+}
+
+h1 img {
+  max-width: 120px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+h2 {
+  color: #0c2f6f;
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  color: #d75402;
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  color: #d75402;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.2em;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #0c2f6f;
+}
+
+a:hover {
+  color: #d75402;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+img {
+  max-width: 100%;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+  padding: 1em 0;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+footer a:hover img {
+  opacity: 0.7;
+}
