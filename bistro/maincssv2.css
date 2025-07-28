@@ -47,7 +47,7 @@ nav ul {
   max-width: 800px;
   display: flex;
   justify-content: center;
-  gap: 1.5rem; /* safe for modern browsers */
+  gap: 1.5rem;
 }
 
 nav ul li a {
